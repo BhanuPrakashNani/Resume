@@ -1,0 +1,264 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resume - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Gopa Vasanth (https://gopavasanth.wordpress.com/)
+%
+% Original repository:
+% https://github.com/gopavasanth/
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Gopa}{Vasanth}{ \urlstyle{same}\url{https://gopavasanth.wordpress.com/} \\
+\href{mailto:gopavasanth1999@gmail.com}{gopavasanth1999@gmail.com} | 7730037733
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Amrita Vidyapeetham}
+\descript{Eng in Computer Science}
+\location{From Jul 2017 - July 2021,\\  CGPA: 7.8}
+\sectionsep
+
+
+\subsection{Sri Chaitanya JR College}
+\location{Percentage: 92.8\%. May 2015-17 |  Vijayawada, India}
+\sectionsep
+
+\descript{School}
+\location{From 2003 - 2015}
+Keshava Reddy Olympiad School\\
+\location{ Nandyal GPA: 9.5/10.0 }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/gopavasanth}{\custombold{gopavasanth}} \\
+Gerrit:// \href{https://gerrit.wikimedia.org/r/#/q/gopavasanth}{\custombold{gopavasanth}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/gopa-vasanth-aa926b152/}{\custombold{Gopa Vasanth}} \\
+% YouTube://  \href{https://www.youtube.com/user/gopavasanth}{\custombold{gopavasanth}} \\
+Twitter://  \href{https://twitter.com/gopavasanth1999}{\custombold{@gopavasanth}} \\
+Quora://  \href{https://www.quora.com/profile/Gopa-Vasanth}{\custombold{Gopa Vasanth}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Coursework}
+% \subsection{Graduate}
+% Open Source Software Engineering \\
+% Advanced Interactive Graphics \\
+% Compilers + Practicum \\
+% Cloud Computing \\
+\sectionsep
+
+\subsection{Undergraduate}
+% Operating Systems \\
+Open Source \\
+Competitive Programming \\
+C-Language + Python + Java  \\
+Web-Development\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+% \location{Over 5000 lines:}
+Java \textbullet{}   Bash \textbullet{}  Python \textbullet{}  \\
+% \location{Over 1000 lines:}
+C \textbullet{} HTML \textbullet{} CSS \textbullet{} PHP \textbullet{} \\
+\location{Familiar:}
+\textbullet MySQL
+\sectionsep
+
+\subsection{Interests}
+Rubik's Cube Multiple models \\ \textbullet{} Badminton \textbullet{} Chess \textbullet{} Swimming \\ \textbullet{} Skating  \textbullet{} Drawing \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Experience}
+
+% \runsubsection{Coursera}
+% \descript{| KPCB Fellow + Software Engineering Intern }
+% \location{Expected June 2014 – Sep 2014 | Mountain View, CA}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+% \begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+% \end{tightemize}
+% \sectionsep
+
+\runsubsection{amfoss}
+\descript{| Active member of \href{https://amfoss.in}{\custombold{FOSS@Amrita}} }
+\location{Jul 2017 – Jul 2018 | Amrita Vishwa Vidyapeetham , Kerala}
+\begin{tightemize}
+\item Worked on the FOSS Blogging website in primarily Jekyll Frame Work and mainly includes HTML, CSS, JS design and develop the full stack implementation of a framework. All code is reviewed, perfected, and pushed to production.\end{tightemize}
+\sectionsep
+
+\runsubsection{Mediawiki}
+\descript{| Open Source Contributor \& Enthusiastic Developer}
+\location{Dec 2017 – April 2018 }
+\begin{tightemize}
+\item MediaWiki is a free and open source software, It is now used by several projects of the non-profit Wikimedia Foundation\item I Established the MediaWiki in my local system, Hacked to the large Code-Base and fixed few bugs.\item Familiarized with Version Control System Gerrit \item Participated in Google Summer of Code 2018 \end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Learnings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\runsubsection{Learnings}
+\descript{Technical | My Learnings | Experience}
+\location{Jul 2017 - Jul 2018  }
+\begin{tightemize}
+\item Familiarized with VCS Git, Gerrit and  Github
+\item Problem Solving Enthusiastic Solved 55+ problems in \href {https://codeforces.com/profile/GopaVasanth}{\custombold{Codeforces}}, 35+ in Hackerrank and CS50 till week-4.
+\item  Project using Gmail-API to \href{https://github.com/gopavasanth/Gmail_API_Project}{\custombold{ Automate Status-Update}}.
+\item Completed PHP Course from\href{https://www.codecademy.com/users/gopavasanth1999/achievements}{\custombold{Codecadamy}}.
+\item Participated in \href{https://drive.google.com/file/d/1JKGJCkn5d5uI3oBTDaTysU3fZ42_dchx/view?usp=sharing}{\custombold{Puma Poster making context}}.
+\item Participated in  \href{https://drive.google.com/file/d/1OfbEQp4wSgmnpXS6KylOLwqhZRRhTFoz/view?usp=sharing}{\custombold{My-Govt Quiz}}.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Non-Technical
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\runsubsection{Non-Technical}
+\descript{| Social Works | Responsibility}
+\begin{tightemize}
+\item Celebrated Diwali 2017 in Orphanage(kollam) \item Donated Goodies in Blind-School (NDL) in 2015 \item Attended Gitamritam and Learned Bhagavadgita 3rd chapter in 2018 Summer Vacation. \item Volunteered in Recycle center(vallikavu). 
+\end{tightemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Research}
+% \runsubsection{Cornell Robot Learning Lab}
+% \descript{| Head Undergrad Research}
+% \location{Jan 2014 – Present | Ithaca, NY}
+% Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+% \sectionsep
+
+% \runsubsection{Cornell Phonetics Lab}
+% \descript{| Head Undergraduate Researcher}
+% \location{Mar 2012 – May 2013 | Ithaca, NY}
+% Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards / Achievements} 
+\begin{tabular}{rll}
+2015	     & District  & Chacha Nehru Balala Award -by M.P sir S.P.Y Reddy.\\
+2015	     & 2\textsuperscript{nd}/Town  & Best Out Going Student from School.\\
+2014	     & District  & Rubik's Cube Award from School.\\
+2018        & International & Hacktoberfest T-Shirt and Goodies\\
+\end{tabular}
+\sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     SOCIETIES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
+% 2014   & National   & The Global Leadership and Education Forum (tGELF)\\
+% 2012   &  National  & Golden Key International Honor Society\\
+% 2012   &  National   & National Society of Collegiate Scholars\\
+% \end{tabular}
+% \sectionsep
+
+\end{minipage} 
+\end{document}
